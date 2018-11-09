@@ -1,6 +1,6 @@
 # Bank Tech Test
 
-# Specification
+## Specification
 
 Today, you'll practice doing a tech test.
 
