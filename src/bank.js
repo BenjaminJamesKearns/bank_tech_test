@@ -15,6 +15,6 @@ bankAccount.prototype.statement = function() {
   12/11/2018 || 100 || 100"
 }
 
-bankaccount.prototype.viewBalance = function() {
+bankAccount.prototype.viewBalance = function() {
   return 'Balance: ' + this.balance
 }
