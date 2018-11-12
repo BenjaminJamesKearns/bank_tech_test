@@ -16,4 +16,10 @@ describe('bank account', function() {
     account.withdraw(100)
     expect(account.balance).toEqual(1)
   });
+
+  it('can view bank statement', function() {
+    account.deposit(100)
+    expect(account.statement()).toEqual("date || amount || balance \
+    12/11/2018 || 100 || 100")
+  });
 });
