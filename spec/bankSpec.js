@@ -22,4 +22,10 @@ describe('bank account', function() {
     expect(account.statement()).toEqual("date || amount || balance \
     12/11/2018 || 100 || 100")
   });
+
+  it('can view balance', function() {
+    account.deposit(100)
+    expect(account.viewBalance()).toEqual("Balance: 100")
+  });
+
 });
